@@ -1,0 +1,68 @@
+Metadata-Version: 2.4
+Name: formulab-nikki
+Version: 0.1.0
+Summary: A mathematical and scientific computation toolkit for Python
+Author: Nikki
+License-Expression: MIT
+Project-URL: Homepage, https://github.com/MpuhweNikita/FormuLab
+Project-URL: Repository, https://github.com/MpuhweNikita/FormuLab
+Project-URL: Issues, https://github.com/MpuhweNikita/FormuLab/issues
+Keywords: mathematics,physics,science,statistics,formulas,calculator
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: license-file
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "formulab-nikki"
+version = "0.1.0"
+description = "A mathematical and scientific computation toolkit for Python"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+
+authors = [
+    { name = "Nikki" }
+]
+
+keywords = [
+    "mathematics",
+    "physics",
+    "science",
+    "statistics",
+    "formulas",
+    "calculator"
+]
+
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Education",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/MpuhweNikita/FormuLab"
+Repository = "https://github.com/MpuhweNikita/FormuLab"
+Issues = "https://github.com/MpuhweNikita/FormuLab/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]

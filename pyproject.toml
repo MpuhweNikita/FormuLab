@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "formulab-nikki"
+version = "0.1.0"
+description = "A mathematical and scientific computation toolkit for Python"
+readme = "README.md"
+requires-python = ">=3.8"
+license =  "MIT"
+
+authors = [
+    { name = "Nikki" }
+]
+
+keywords = [
+    "mathematics",
+    "physics",
+    "science",
+    "statistics",
+    "formulas",
+    "calculator"
+]
+
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Education",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Operating System :: OS Independent",
+]
+
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/MpuhweNikita/FormuLab"
+Repository = "https://github.com/MpuhweNikita/FormuLab"
+Issues = "https://github.com/MpuhweNikita/FormuLab/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
